@@ -9,7 +9,7 @@ import (
 
 func main() {
 
-	const numWorkers = 2
+	const numWorkers = 1
 
 	worker, err := mapreduce.NewWorker("localhost:1234", invertedindex.ProcessingTask)
 	if err != nil {
